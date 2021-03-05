@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Raleway:wght@200;300;400&display=swap" rel="stylesheet">
+	<!-- PHP -->
+	<link rel="stylesheet" href="php/send.php">
+	<title>practice</title>
+</head>
+<body>
+
+
+<header>
+	<div class="header">
+		<div class="container">
+			<div class="header__flex">
+			  
+				<div class="logo">
+				<a>
+					<img src="image/logo/Logo.png" alt="">
+				</a>
+				</div>
+			  
+				<div class="menu">
+					<a href="#features" class="menu__link">Особенности</a>
+					<a href="#our" class="menu__link">О нас</a>
+					<a href="#price" class="menu__link">Цена</a>
+					<a href="#what" class="menu__link">Отзывы</a>
+					<a href="#contact" class="menu__link">Контакты</a>
+				</div>
+
+				<div class="burger">
+					<span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- INTRO========================================================
+================================================================== -->
+<section class="intro">
+	<div class="container">
+		<h2>Лучшие хостинги по адекватным ценам</h2>
+
+		<div class="flex__intro">
+
+			<div class="colum__intro">
+				<img class="intro__logo" src="image/intro/Logo.png" alt="">
+				<div class="intro__title">Доверьте заботу о сайте хостинг‑провайдеру №1 в России</div>
+				<div class="intro__subtitle">по данным StatOnline.ru, занимает первое место по количеству обслуживаемых на хостинге доменов в национальных зонах .RU и .РФ</div>
+				<div class="intro__button"><button class="btn" >купить</button></div>
+			</div>
+			<!-- FORM========================================================
+			================================================================== -->
+			<div class="colum__intro colum__intro--two">
+				<form action="php/send.php" method="POST" >
+					<div class="form">
+						<div class="form__first">
+							Зарегистрироваться
+						</div>
+						<div class="form__second">
+							<input name="name" placeholder=" Имя" type="text" class="form__second__input">
+							<input name="phone" placeholder=" Телефон" type="text" class="form__second__input">
+							<input name="email" placeholder=" Email" type="text" class="form__second__input">
+						</div>
+						<div class="form__third">
+							<button value="submit" class="form__btn">Отправить</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- SOCIAL MEDIA========================================================
+================================================================== -->
+<section class="social">
+	<div class="container">
+		<div class="social__media">
+			<div class="social__col social__col--one">
+				<h4>Наши контакты</h4>
+				<div class="social__subtitle">Мы ведем открытую и прозрачную политику. <br> Вы всегда можете связаться с нами через наши соцсети.</div>
+			</div>
+			<div class="social__col social__col--twos">
+				<a class="linka" href="#"><img class="social__icon social__icon--pad" src="image/social/facebook (2).svg" alt=""></a>
+				<a class="linka" href="#"><img class="social__icon social__icon--pad" src="image/social/behance.svg" alt=""></a>
+				<a class="linka" href="#"><img class="social__icon social__icon--pad" src="image/social/google-plus.svg" alt=""></a>
+				<a class="linka" href="#"><img class="social__icon social__icon--pad" src="image/social/instagram (1).svg" alt=""></a>
+				<a class="linka" href="#"><img class="social__icon social__icon--pad" src="image/social/wifi.svg" alt=""></a>
+				<a class="linka" href="#"><img class="social__icon social__icon--pad" src="image/social/twitter (2).svg" alt=""></a>
+				<a class="linka" href="#"><img class="social__icon social__icon--pad" src="image/social/youtube.svg" alt=""></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- SOCIAL MEDIA========================================================
+================================================================== -->
+
+<section class="tabs" id="features">
+	<div class="container">
+		<div class="flex__tab">
+			
+			<div class="content__tab">
+				<div class="tab__title">AX.IT — один из крупнейших в России провайдеров хостинга. Мы предлагаем хостинг для сайтов, создания почты и хранения данных.</div>
+				<div class="tab__text">
+					<p>В линейке хостинговых продуктов RU-CENTER представлены решения для любого масштаба бизнеса — от недорогого хостинга для сайтов с небольшой посещаемостью до аренды выделенного сервера для больших проектов. </p>
+					<p>Все серверы AX.IT, и дешевый хостинг в том числе, имеют мощные процессоры и отказоустойчивую инфраструктуру, и отвечают современным технологическим стандартам индустрии.  </p>
+				</div>
+				<div class="tab__button">
+					<button>
+						Заказать
+					</button>
+				</div>
+			</div>
+			<div class="tab__image">
+				<img src="image/tabs/image_right_u255.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- SUBLIST========================================================
+================================================================== -->
+<section class="sublist">
+	<div class="container">
+
+		<div class="flex__sublist">
+			
+			<div class="sublist__column sublist__column--img">
+				<div class="arttt"><img src="image/hosting_wordpress.webp" alt=""></div>
+			</div>
+
+			<div class="sublist__column sublist__column--two">
+				<div class="title_sublist"><h2>Тысячи компаний выбрали AX.IT за надежность</h2></div>
+				<div class="sub__text">Все сайты на виртуальном хостинге размещаются на мощных серверах, на которые установлены все необходимые модули и программное обеспечение. Работа с услугой осуществляется через панель управления и не требует навыков администрирования.</div>
+
+				<div class="flex__title">
+					<div class="col__flex__title">
+						<div class="col__item">
+							<div class="art">
+								<img class="cloud" style="width: 20px;height: 20px;" src="image/sub-list/cloud.svg" alt="">
+							</div>
+						</div>
+						<div class="col__title__flex">Круглосуточная поддержка
+						<p>Мы ответим вам в течении 5 минут. На одном физическом сервере располагаются сайты разных клиентов. Хостинг поддерживает PHP, MySQL, любые CMS (WordPress, 1С-Битрикс, Joomla!, Drupal и др.), скрипты и другие современные технологии, он идеально подходит для 95% всех клиентов.</p>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- STANDART========================================================
+================================================================== -->
+<section class="standart">
+	<div class="container">
+	<div class="standart__flex">
+
+		<div class="standart__col standart__col__content">
+			<div class="stand">Техническая поддержка хостинга</div>
+			<p>Техническая поддержка хостинга – это сервисная структура, созданная для разрешения проблем пользователей при работе с серверной площадкой. Когда пользователь выбирает место для размещения сайта, (хостинг компанию, предоставляющую место на сервере), то стоит учитывать, что в работе последнего неизбежны вопросы технического или программного характера.</p>
+			<p>Цель работы техподдержки – обеспечивать работоспособность сервера, обеих его составляющих (оборудования и программного обеспечения), а также устранять проблемы, возникшие из-за сбоев.</p>
+		</div>
+
+		<div class="standart__col">
+			<img src="image/40.jpg" alt="">
+		</div>
+
+	</div>
+	</div>
+</section>
+
+
+
+
+<!-- WHY THIS========================================================
+================================================================== -->
+
+<section class="whythis" id="our">
+	<div class="container">
+		<div class="why__title">Немного о нас</div>
+		<div class="why__subtitle">Наши специалисты перенесут ваш сайт на наш хостинг совершенно бесплатно</div>
+
+		<div class="why__flex">
+			<div class="why__flex__col">
+				<div class="why__flex__image">
+					<img src="image/why_this/pen.svg" style="width: 40px;height: 40px;" alt="">
+				</div>
+				<div class="why__flex__title">Мы - №1</div>
+				<div class="why__flex__subtitle">крупнейший российский регистратор доменов для бизнеса</div>
+			</div>
+
+			<div class="why__flex__col">
+				<div class="why__flex__image">
+					<img src="image/why_this/thinking.svg" style="width: 40px;height: 40px;" alt="">
+				</div>
+				<div class="why__flex__title">Пользователи</div>
+				<div class="why__flex__subtitle">7.6 МИЛЛИОНА зарегистрировано доменов</div>
+			</div>
+			<div class="why__flex__col">
+				<div class="why__flex__image">
+					<img src="image/why_this/safety.png" style="width: 40px;height: 40px;" alt="">
+				</div>
+				<div class="why__flex__title">Безопасность</div>
+				<div class="why__flex__subtitle">20 ЛЕТ безопасности сайтов для бизнеса</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- PRICING========================================================
+================================================================== -->
+
+<section class="pricing" id="price">
+	<div class="container">
+		<div class="why__title">Тарифные планы</div>
+		<div class="why__subtitle">Хостинг позволяет вашему сайту работать 24/7 без перебоев.</div>
+
+		<div class="flex__pricing">
+
+			<div class="flex__pricing__col">
+				<div class="flex__pricing__col__title">Подойдёт для статичной страницы</div>
+				<div class="flex__pricing__col__price">
+					<div class="price">$ <strong>1</strong></div>
+					<div class="price__text">15
+ сайтов</div>
+				</div>
+				<div class="place">
+					30ГБ SSD
+				</div>
+				<div class="place">
+					10 ГБ NVMe
+				</div>
+				<div class="place">
+					∞
+трафик
+				</div>
+				<div class="place">
+					∞
+доменов
+				</div>
+				<div class="place">
+					1
+база данных
+				</div>
+				<div class="place">
+					Экономия: 600 руб
+				</div>
+			</div>
+
+			<div class="flex__pricing__col">
+				<div class="flex__pricing__col__title">Хороший вариант для
+посадочной страницы</div>
+				<div class="flex__pricing__col__price">
+					<div class="price">$ <strong>1.6</strong></div>
+					<div class="price__text">12 сайт</div>
+				</div>
+				<div class="place">
+					40ГБ SSD
+				</div>
+				<div class="place">
+					60 ГБ NVMe
+				</div>
+				<div class="place">
+					∞
+трафик
+				</div>
+				<div class="place">
+					∞
+доменов
+				</div>
+				<div class="place">
+					∞
+база данных
+				</div>
+				<div class="place">
+					Экономия: 2316 руб
+				</div>
+			</div>
+
+			<div class="flex__pricing__col">
+				<div class="flex__pricing__col__title">Оптимален для сайта‑галереи и интернет-магазина</div>
+				<div class="flex__pricing__col__price">
+					<div class="price">$ <strong>3</strong></div>
+					<div class="price__text">100 сайт</div>
+				</div>
+				<div class="place">
+					60ГБ SSD
+				</div>
+				<div class="place">
+					100 ГБ NVMe
+				</div>
+				<div class="place">
+					∞
+трафик
+				</div>
+				<div class="place">
+					∞
+доменов
+				</div>
+				<div class="place">
+				∞
+				база данных
+				</div>
+				<div class="place">
+					Экономия: 10680 руб
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- WHAT OUR========================================================
+================================================================== -->
+
+<div class="what" id="what">
+	<div class="container">
+		<div class="why__title">Отзывы наших пользователей</div>
+		<div class="why__subtitle">Все отзывы взяты с наших официальных аккаунтов</div>
+
+		<div class="flex__what">
+			<div class="what__col">
+				<div class="what__text">Приятный интерфейс веб-сайта, он не перегружен текстом. Виртуальный хостинг привлекает разнообразностью тарифов и ценами. Здесь можно найти как небольшие пакеты на 1-5 Гб, так и побольше (до 100 Гб).</div>
+				<div class="flex__what__flex">
+					<div class="col__what__flex">
+						<img src="image/man/20190214174619-9721.png" alt="">
+					</div>
+					<div class="work__man">
+						<div class="what__title">Олег Вий</div>
+						<div class="work">Israel  30 мар. 2020</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="what__col">
+				<div class="what__text">Технические и любые вопросы решаются в режиме 24/7. За годы пользования ни разу не было проблем. Большинство возникающих проблем технические специалисты решают моментально и помогают советами.</div>
+				<div class="flex__what__flex">
+					<div class="col__what__flex">
+						<img src="image/man/620x462_1_71933112dd6052abd2f11f4fd6b21bc6@1000x745_0xac120003_11240870131562642298.jpg" alt="">
+					</div>
+					<div class="work__man">
+						<div class="what__title">Олеся Власова</div>
+						<div class="work">Russia  26 авг. 2019</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="what__col">
+				<div class="what__text">Я не мог зайти на свой сайт. Даже когда я понял после общения с поддержкой, что у меня проблемы на моем компе, поддержка связалась со мной и помогла решить проблему.Все круто. Очень доволеню</div>
+				<div class="flex__what__flex">
+					<div class="col__what__flex">
+						<img src="image/man/Без названия.jpg" alt="">
+					</div>
+					<div class="work__man">
+						<div class="what__title">Елена Вонск</div>
+						<div class="work">Ukraine  15 дек. 2019</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+<!-- WHAT OUR========================================================
+================================================================== -->
+<div class="style">
+	<div class="container">
+		<div class="why__title why__title--style">ЧТО ГОВОРЯТ НАШИ КЛИЕНТЫ</div>
+		<div class="why__subtitle why__subtitle--style">Читать отзывы о нашей работе</div>
+		<div class="style__btn">
+		<button class="btn">Читать</button>
+		</div>
+		<div class="text__style">Все отзывы оставлены реальными людьми, <br> который пользуются нашими услугами</div>
+	</div>
+</div>
+<!-- CONTACT OUR========================================================
+================================================================== -->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="why__title">купить хостинг</div>
+		<div class="why__subtitle why__subtitle--contact">Вы так же можете приобрести хостинг со скидкой 10% заполнив форму ниже</div>
+		
+		<div class="flex__contact">
+
+			<div class="contact__column contact__column--one">
+				<input placeholder="Имя" type="text" class="form__second__input form__second__input--cont">
+
+				<input placeholder=" Email" type="email" class="form__second__input form__second__input--cont">
+
+				<input placeholder="Телефон" type="phone" class="form__second__input form__second__input--cont">
+			</div>
+			
+			<div class="contact__column contact__column--two">
+				<textarea name="text" placeholder="Ваше сообщение" id=""></textarea>
+			</div>
+			
+		</div>
+
+		<div class="tab__button tab__button--cont">
+			<button>
+				Приобрести
+			</button>
+	</div>
+</div>
+</div>
+<!-- FOOTER========================================================
+================================================================== -->
+<footer class="footer">
+	<div class="container">
+		<div class="flex__footer">
+			<div class="footer__title">сайт сделан <a href="#">Ryabenkov Daniil </a>2017</div>
+		</div>
+	</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
